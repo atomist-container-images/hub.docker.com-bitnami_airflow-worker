@@ -1,12 +1,15 @@
-# Tags: latest, 2.3.0-debian-10-r1, 2.3.0, 2-debian-10, 2
+# Tags: latest, 2.3.0-debian-10-r2, 2.3.0, 2-debian-10, 2
 FROM bitnami/airflow-worker:latest
-FROM bitnami/airflow-worker:2.3.0-debian-10-r1
+FROM bitnami/airflow-worker:2.3.0-debian-10-r2
 FROM bitnami/airflow-worker:2.3.0
 FROM bitnami/airflow-worker:2-debian-10
 FROM bitnami/airflow-worker:2
 
 # Tags: _
 FROM bitnami/airflow-worker:_
+
+# Tags: 2.3.0-debian-10-r1
+FROM bitnami/airflow-worker:2.3.0-debian-10-r1
 
 # Tags: 2.3.0-debian-10-r0
 FROM bitnami/airflow-worker:2.3.0-debian-10-r0
@@ -90,6 +93,3 @@ FROM bitnami/airflow-worker:2.2.5-debian-10-r0
 # Tags: 2.2.4-debian-10-r40, 2.2.4
 FROM bitnami/airflow-worker:2.2.4-debian-10-r40
 FROM bitnami/airflow-worker:2.2.4
-
-# Tags: 2.2.4-debian-10-r39
-FROM bitnami/airflow-worker:2.2.4-debian-10-r39
